@@ -32,9 +32,6 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bGoogle\b/g, "The Google");
-	v = v.replace(/\bGoogle\b/g, "The Google");
-	v = v.replace(/\bGoogle\b/g, "The Google");
-	v = v.replace(/\bGoogle\b/g, "The Google");
 	
 	textNode.nodeValue = v;
 }
